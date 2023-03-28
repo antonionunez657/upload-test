@@ -11,17 +11,24 @@ export default function Page() {
           <div>
             <p>Descripcion: Esta es una pagina de prueba</p>
           </div>
+          <br></br>
+          <br></br>
 
           <div className={styles.cardslayout}>
-            <p>Card 1</p>
-            <p>Card 2</p>
-            <p>Card 3</p>
-          </div>
-
-          <div className={styles.cardsdescription}>
-            <p>Descripcion 1</p>
-            <p>Descripcion 2</p>
-            <p>Descripcion 3</p>
+            <div className= {styles.cardDiv}>
+              <h1 className={styles.headerCard}>
+                Card 1
+              </h1>
+              <p>Description 1</p>
+            </div>
+            <div className= {styles.cardDiv}>
+              <p>Card 2</p>
+              <p>Description 2</p>
+            </div>
+            <div className= {styles.cardDiv}>
+              <p>Card 3</p>
+              <p>Description 3</p>
+            </div>
           </div>
 
           </div>

@@ -8,7 +8,6 @@
     background-color: whitesmoke;
     color: black;
     display: flex;
-    justify-content: center;
 }
 .containerContent{
     color: black;
@@ -24,12 +23,27 @@
 }
 
 .cardslayout{
-    height: 100%;
     display: flex;
-    justify-content: centers;
+    justify-content: space-around;
+    /*align-items:center;*/
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
-.cardsdescription{
-    height: 100%;
+
+.cardDiv{
     display: flex;
-    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.headerCard {
+    width: 100%;
+    background-color: aquamarine;
 }
