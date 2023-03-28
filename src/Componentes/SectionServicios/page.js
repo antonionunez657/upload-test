@@ -21,12 +21,18 @@ export default function Page() {
               </h1>
               <p>Description 1</p>
             </div>
+
             <div className= {styles.cardDiv}>
-              <p>Card 2</p>
+            <h1 className={styles.headerCard}>
+                Card 2
+              </h1>
               <p>Description 2</p>
             </div>
+
             <div className= {styles.cardDiv}>
-              <p>Card 3</p>
+            <h1 className={styles.headerCard}>
+                Card 3
+              </h1>
               <p>Description 3</p>
             </div>
           </div>
